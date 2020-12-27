@@ -1,0 +1,80 @@
+html,body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    min-height: 180px;
+    padding: 0;
+    width: 380px;
+    background-color: gainsboro;
+}
+
+h1{
+    font-family: 'Menlo' , monospace;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a:link , a:visited{
+    color: black;
+    outline: 0;
+    text-decoration: none;
+}
+
+.model-header{
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.model-content{
+    padding: 0 10px;
+}
+
+.logo{
+    padding: 16px;
+}
+
+.logo-icon{
+    vertical-align: text-bottom;
+    height: 70px;
+}
+
+.version{
+    color: #444;
+    font-size: 18px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 22px;
+}
+
+.flex:hover{
+    opacity: 0.4;
+}
+
+.contribution p{
+    text-align: right;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+.contribution a{
+    float: right;
+    padding-right: 5px;
+}
+
+.contribution .fa{
+    font-size: 24px;
+    color: black
+}

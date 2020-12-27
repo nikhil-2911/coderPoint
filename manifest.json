@@ -1,0 +1,12 @@
+{
+    "manifest_version" : 2,
+    "name" : "Coder Point",
+    "description" : "Coding websites Launcher",
+    "version" : "1.0.0",
+    "icons" : {"195" : "icon_195.png"},
+    "browser_action" : {
+        "default_icon" : "icon.png",
+        "default_popup" : "popup.html"
+    },
+    "permissions" : ["activeTab"]
+}
