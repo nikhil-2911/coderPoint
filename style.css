@@ -66,12 +66,13 @@ a:link , a:visited{
 .contribution p{
     text-align: right;
     font-size: 13px;
+    margin-right: 20px;
     margin-bottom: 3px;
 }
 
 .contribution a{
     float: right;
-    padding-right: 5px;
+    margin-right: 20px;
 }
 
 .contribution .fa{
